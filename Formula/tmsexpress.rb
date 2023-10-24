@@ -7,8 +7,9 @@ class Tmsexpress < Formula
 
   bottle do
     root_url "https://github.com/tornupnegatives/homebrew-tap/releases/download/tmsexpress-2.0.2"
-    sha256 cellar: :any_skip_relocation, ventura:      "7e9d20d8510ce29e4369f4afe9a2b625fed42de792701dbc70b23b28add3715b"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "131513bb95a677fd55a90b2a8437dae980561fb1440bfb856a21ce3657d61c1c"
+    rebuild 1
+    sha256 cellar: :any,                 ventura:      "febd15f592e4190ad96b68089b0931982f310942c7dabb100089b8040d779b95"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "0f278cd1fe1a431c39c8628bd6f2ce9b68abdfa82de6ab82f91dedffe1bad5e7"
   end
 
   depends_on "cmake" => :build
