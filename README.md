@@ -1,2 +1,12 @@
-# homebrew-packages
-Homebrew tap for macOS/Linux
+# Tornupnegatives Tap
+
+## How do I install these formulae?
+
+`brew install tornupnegatives/tap/<formula>`
+
+Or `brew tap tornupnegatives/tap` and then `brew install <formula>`.
+
+## Documentation
+
+`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+
